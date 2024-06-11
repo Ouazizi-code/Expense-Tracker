@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.1892fe58.css","mappings":"AAAA,KAGE,WAAY,CAFZ,iBAGF,CAEA,KACE,wBACF","sources":["App.css"],"sourcesContent":[".App {\n  text-align: center;\n\n  color: beige;\n}\n\nbody {\n  background-color: rgb(61, 58, 58);\n}\n"],"names":[],"sourceRoot":""}
