@@ -69,7 +69,9 @@ body {
   text-align: start;
   background-color: rgba(241, 248, 255, 0);
   width: 50%;
-  margin: 10px 25%;
+  margin: 20px 25%;
+  padding: 20px;
+  box-shadow: 2px 2px 15px white;
 }
 
 .transactionlist ul {
@@ -92,8 +94,10 @@ body {
 /* this part for the add new transaction list*/
 .addtransaction {
   text-align: start;
+  padding: 20px;
   width: 50%;
-  margin: 10px 25%;
+  margin: 20px 25%;
+  box-shadow: 2px 2px 15px white;
 }
 
 .addtransaction input,
@@ -108,4 +112,22 @@ button {
   background-color: rgba(134, 69, 195, 0.696);
   margin-top: 10px;
   padding: 10px;
+}
+
+.addtransaction button:hover {
+  background-color: rgba(137, 43, 226, 0.496);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* this media for the small devices*/
+
+@media (max-width: 820px) {
+  .addtransaction,
+  .transactionlist,
+  .balance,
+  .inc-exp-conateiner {
+    width: 80%;
+    margin: 10px 10%;
+  }
 }
