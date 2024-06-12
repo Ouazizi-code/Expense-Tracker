@@ -6,16 +6,19 @@ import TransactionList from './compenent/TransactionList';
 import AddNewTranscation from './compenent/AddNewTranscation';
 
 
+import { GlobalProvider } from './context/GlobalState';
+
+
 function App() {
   return (
-    <div className='app'>
+    <GlobalProvider className='app'>
       <Header />
       <Balance />
       <IncomeExpenses />
       <TransactionList />
       <AddNewTranscation />
 
-    </div>
+    </GlobalProvider>
   );
 }
 
